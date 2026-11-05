@@ -1,0 +1,119 @@
+{"Time":"2026-11-05T13:31:36.88358-06:00","Action":"start","Package":"github.com/balkashynov/grantline/cmd/grantline"}
+{"Time":"2026-11-05T13:31:36.883664-06:00","Action":"output","Package":"github.com/balkashynov/grantline/cmd/grantline","Output":"?   \tgithub.com/balkashynov/grantline/cmd/grantline\t[no test files]\n"}
+{"Time":"2026-11-05T13:31:36.883677-06:00","Action":"skip","Package":"github.com/balkashynov/grantline/cmd/grantline","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.901183-06:00","Action":"start","Package":"github.com/balkashynov/grantline/internal/compare"}
+{"Time":"2026-11-05T13:31:36.946831-06:00","Action":"start","Package":"github.com/balkashynov/grantline/internal/terraform"}
+{"Time":"2026-11-05T13:31:36.994778-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios"}
+{"Time":"2026-11-05T13:31:36.994803-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios","Output":"=== RUN   TestScenarios\n"}
+{"Time":"2026-11-05T13:31:36.994826-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/lost-access"}
+{"Time":"2026-11-05T13:31:36.994831-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/lost-access","Output":"=== RUN   TestScenarios/lost-access\n"}
+{"Time":"2026-11-05T13:31:36.995079-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/lost-access","Output":"--- PASS: TestScenarios/lost-access (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995087-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/lost-access","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995095-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/empty-list"}
+{"Time":"2026-11-05T13:31:36.995099-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/empty-list","Output":"=== RUN   TestScenarios/empty-list\n"}
+{"Time":"2026-11-05T13:31:36.995151-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/empty-list","Output":"--- PASS: TestScenarios/empty-list (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995156-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/empty-list","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995161-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/unknown-policy"}
+{"Time":"2026-11-05T13:31:36.995164-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/unknown-policy","Output":"=== RUN   TestScenarios/unknown-policy\n"}
+{"Time":"2026-11-05T13:31:36.995209-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/unknown-policy","Output":"--- PASS: TestScenarios/unknown-policy (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995214-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/unknown-policy","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995222-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/role-change"}
+{"Time":"2026-11-05T13:31:36.995226-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/role-change","Output":"=== RUN   TestScenarios/role-change\n"}
+{"Time":"2026-11-05T13:31:36.995262-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/role-change","Output":"--- PASS: TestScenarios/role-change (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995267-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/role-change","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995271-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/ipv6-gap"}
+{"Time":"2026-11-05T13:31:36.995294-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/ipv6-gap","Output":"=== RUN   TestScenarios/ipv6-gap\n"}
+{"Time":"2026-11-05T13:31:36.995317-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/ipv6-gap","Output":"--- PASS: TestScenarios/ipv6-gap (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995322-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/ipv6-gap","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995325-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/equivalent"}
+{"Time":"2026-11-05T13:31:36.995327-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/equivalent","Output":"=== RUN   TestScenarios/equivalent\n"}
+{"Time":"2026-11-05T13:31:36.995374-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/equivalent","Output":"--- PASS: TestScenarios/equivalent (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995379-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios/equivalent","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995382-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios","Output":"--- PASS: TestScenarios (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995385-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestScenarios","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995388-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestExactScopedRoles"}
+{"Time":"2026-11-05T13:31:36.995391-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestExactScopedRoles","Output":"=== RUN   TestExactScopedRoles\n"}
+{"Time":"2026-11-05T13:31:36.995419-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestExactScopedRoles","Output":"--- PASS: TestExactScopedRoles (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995422-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestExactScopedRoles","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995426-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestDuplicateRolesAreASet"}
+{"Time":"2026-11-05T13:31:36.995429-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestDuplicateRolesAreASet","Output":"=== RUN   TestDuplicateRolesAreASet\n"}
+{"Time":"2026-11-05T13:31:36.995462-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestDuplicateRolesAreASet","Output":"--- PASS: TestDuplicateRolesAreASet (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995465-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestDuplicateRolesAreASet","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995469-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNoRoleHierarchyAssumption"}
+{"Time":"2026-11-05T13:31:36.995472-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNoRoleHierarchyAssumption","Output":"=== RUN   TestNoRoleHierarchyAssumption\n"}
+{"Time":"2026-11-05T13:31:36.995506-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNoRoleHierarchyAssumption","Output":"--- PASS: TestNoRoleHierarchyAssumption (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995509-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNoRoleHierarchyAssumption","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995513-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestUnknownFieldsAndTrailingJSONRejected"}
+{"Time":"2026-11-05T13:31:36.995524-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestUnknownFieldsAndTrailingJSONRejected","Output":"=== RUN   TestUnknownFieldsAndTrailingJSONRejected\n"}
+{"Time":"2026-11-05T13:31:36.995528-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestUnknownFieldsAndTrailingJSONRejected","Output":"--- PASS: TestUnknownFieldsAndTrailingJSONRejected (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995532-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestUnknownFieldsAndTrailingJSONRejected","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995535-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestInputValidation"}
+{"Time":"2026-11-05T13:31:36.995538-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestInputValidation","Output":"=== RUN   TestInputValidation\n"}
+{"Time":"2026-11-05T13:31:36.995628-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestInputValidation","Output":"--- PASS: TestInputValidation (0.00s)\n"}
+{"Time":"2026-11-05T13:31:36.995632-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestInputValidation","Elapsed":0}
+{"Time":"2026-11-05T13:31:36.995638-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkDifferenceAgainstMembershipOracle"}
+{"Time":"2026-11-05T13:31:36.995641-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkDifferenceAgainstMembershipOracle","Output":"=== RUN   TestNetworkDifferenceAgainstMembershipOracle\n"}
+{"Time":"2026-11-05T13:31:37.079109-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestNestedModuleImportAndSecretOmission"}
+{"Time":"2026-11-05T13:31:37.07912-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestNestedModuleImportAndSecretOmission","Output":"=== RUN   TestNestedModuleImportAndSecretOmission\n"}
+{"Time":"2026-11-05T13:31:37.079466-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestNestedModuleImportAndSecretOmission","Output":"--- PASS: TestNestedModuleImportAndSecretOmission (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079472-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestNestedModuleImportAndSecretOmission","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079476-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestUnknownPolicyCannotPass"}
+{"Time":"2026-11-05T13:31:37.079479-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestUnknownPolicyCannotPass","Output":"=== RUN   TestUnknownPolicyCannotPass\n"}
+{"Time":"2026-11-05T13:31:37.079553-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestUnknownPolicyCannotPass","Output":"--- PASS: TestUnknownPolicyCannotPass (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079558-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestUnknownPolicyCannotPass","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079562-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports"}
+{"Time":"2026-11-05T13:31:37.079565-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports","Output":"=== RUN   TestRejectMalformedImports\n"}
+{"Time":"2026-11-05T13:31:37.079568-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/plan"}
+{"Time":"2026-11-05T13:31:37.07957-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/plan","Output":"=== RUN   TestRejectMalformedImports/plan\n"}
+{"Time":"2026-11-05T13:31:37.079623-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/plan","Output":"--- PASS: TestRejectMalformedImports/plan (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079632-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/plan","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079641-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_format"}
+{"Time":"2026-11-05T13:31:37.079645-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_format","Output":"=== RUN   TestRejectMalformedImports/future_format\n"}
+{"Time":"2026-11-05T13:31:37.07969-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_format","Output":"--- PASS: TestRejectMalformedImports/future_format (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079695-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_format","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079701-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_schema"}
+{"Time":"2026-11-05T13:31:37.079705-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_schema","Output":"=== RUN   TestRejectMalformedImports/future_schema\n"}
+{"Time":"2026-11-05T13:31:37.079754-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_schema","Output":"--- PASS: TestRejectMalformedImports/future_schema (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079758-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/future_schema","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079762-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_id"}
+{"Time":"2026-11-05T13:31:37.079765-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_id","Output":"=== RUN   TestRejectMalformedImports/unknown_id\n"}
+{"Time":"2026-11-05T13:31:37.079815-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_id","Output":"--- PASS: TestRejectMalformedImports/unknown_id (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079826-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_id","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.07983-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_roles"}
+{"Time":"2026-11-05T13:31:37.079833-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_roles","Output":"=== RUN   TestRejectMalformedImports/unknown_roles\n"}
+{"Time":"2026-11-05T13:31:37.079884-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_roles","Output":"--- PASS: TestRejectMalformedImports/unknown_roles (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079888-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/unknown_roles","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079891-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/bad_cidr"}
+{"Time":"2026-11-05T13:31:37.079894-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/bad_cidr","Output":"=== RUN   TestRejectMalformedImports/bad_cidr\n"}
+{"Time":"2026-11-05T13:31:37.07995-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/bad_cidr","Output":"--- PASS: TestRejectMalformedImports/bad_cidr (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.079954-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/bad_cidr","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.079957-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/wrong_organization"}
+{"Time":"2026-11-05T13:31:37.079961-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/wrong_organization","Output":"=== RUN   TestRejectMalformedImports/wrong_organization\n"}
+{"Time":"2026-11-05T13:31:37.080009-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/wrong_organization","Output":"--- PASS: TestRejectMalformedImports/wrong_organization (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.080013-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports/wrong_organization","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.080016-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports","Output":"--- PASS: TestRejectMalformedImports (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.080019-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestRejectMalformedImports","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.080022-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestComputedSingletonFields"}
+{"Time":"2026-11-05T13:31:37.080025-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestComputedSingletonFields","Output":"=== RUN   TestComputedSingletonFields\n"}
+{"Time":"2026-11-05T13:31:37.080125-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestComputedSingletonFields","Output":"--- PASS: TestComputedSingletonFields (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.080129-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Test":"TestComputedSingletonFields","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.080132-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Output":"PASS\n"}
+{"Time":"2026-11-05T13:31:37.080509-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/terraform","Output":"ok  \tgithub.com/balkashynov/grantline/internal/terraform\t0.134s\n"}
+{"Time":"2026-11-05T13:31:37.081282-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/terraform","Elapsed":0.134}
+{"Time":"2026-11-05T13:31:37.181952-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkDifferenceAgainstMembershipOracle","Output":"--- PASS: TestNetworkDifferenceAgainstMembershipOracle (0.19s)\n"}
+{"Time":"2026-11-05T13:31:37.18197-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkDifferenceAgainstMembershipOracle","Elapsed":0.19}
+{"Time":"2026-11-05T13:31:37.181974-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkBoundaries"}
+{"Time":"2026-11-05T13:31:37.181976-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkBoundaries","Output":"=== RUN   TestNetworkBoundaries\n"}
+{"Time":"2026-11-05T13:31:37.181981-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkBoundaries","Output":"--- PASS: TestNetworkBoundaries (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.181993-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestNetworkBoundaries","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.181996-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestEmptyPolicy"}
+{"Time":"2026-11-05T13:31:37.181999-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestEmptyPolicy","Output":"=== RUN   TestEmptyPolicy\n"}
+{"Time":"2026-11-05T13:31:37.182002-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestEmptyPolicy","Output":"--- PASS: TestEmptyPolicy (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.182005-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestEmptyPolicy","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.182008-06:00","Action":"run","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestRejectMappedIPv6"}
+{"Time":"2026-11-05T13:31:37.182011-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestRejectMappedIPv6","Output":"=== RUN   TestRejectMappedIPv6\n"}
+{"Time":"2026-11-05T13:31:37.182014-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestRejectMappedIPv6","Output":"--- PASS: TestRejectMappedIPv6 (0.00s)\n"}
+{"Time":"2026-11-05T13:31:37.182016-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Test":"TestRejectMappedIPv6","Elapsed":0}
+{"Time":"2026-11-05T13:31:37.182019-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Output":"PASS\n"}
+{"Time":"2026-11-05T13:31:37.182497-06:00","Action":"output","Package":"github.com/balkashynov/grantline/internal/compare","Output":"ok  \tgithub.com/balkashynov/grantline/internal/compare\t0.281s\n"}
+{"Time":"2026-11-05T13:31:37.183415-06:00","Action":"pass","Package":"github.com/balkashynov/grantline/internal/compare","Elapsed":0.282}

@@ -1,0 +1,286 @@
+{
+  "equivalent": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": true
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/25",
+        "192.0.2.128/25"
+      ],
+      "requireIpList": true
+    }
+  },
+  "lost-access": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": true
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/25"
+      ],
+      "requireIpList": true
+    }
+  },
+  "empty-list": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": false
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [],
+      "requireIpList": false
+    }
+  },
+  "unknown-policy": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": null
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": null
+    }
+  },
+  "role-change": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": true
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_OWNER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "192.0.2.0/24"
+      ],
+      "requireIpList": true
+    }
+  },
+  "ipv6-gap": {
+    "schemaVersion": 1,
+    "scope": "provided-snapshot",
+    "before": {
+      "label": "Legacy deployment key",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "2001:db8::/126"
+      ],
+      "requireIpList": true
+    },
+    "after": {
+      "label": "Replacement service account",
+      "orgId": "111111111111111111111111",
+      "grants": [
+        {
+          "scope": "org:111111111111111111111111",
+          "role": "ORG_MEMBER"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_READ_ONLY"
+        },
+        {
+          "scope": "project:222222222222222222222222",
+          "role": "GROUP_DATA_ACCESS_READ_ONLY"
+        }
+      ],
+      "accessList": [
+        "2001:db8::/127",
+        "2001:db8::2/128"
+      ],
+      "requireIpList": true
+    }
+  }
+}

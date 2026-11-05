@@ -1,0 +1,21 @@
+{
+  "checked": "2026-11-05",
+  "go": "1.26.2",
+  "node": "24.3.0",
+  "platform": "darwin/arm64",
+  "go_test_and_subtest_passes": 27,
+  "oracle_trials": 3000,
+  "oracle_membership_checks": 768000,
+  "cli_wasm_equal_scenarios": 6,
+  "terraform": {
+    "version": "1.13.5",
+    "provider": "mongodb/mongodbatlas 2.21.0",
+    "mode": "mock_provider",
+    "result": "passed; actual provider schemas, no live Atlas operations"
+  },
+  "javascript_syntax": "passed",
+  "static_structure": "unique IDs, local assets present, six scenario bindings match fixtures",
+  "browser_visual_and_dom": "unverified: local browser use disabled in Work settings",
+  "live_atlas": "not performed",
+  "wasm_sha256": "e50a1447637294a8386e7523e52a18ea0b6d839ce67361f48725a18b99aea60b"
+}

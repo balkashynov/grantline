@@ -1,0 +1,9 @@
+/local-notes/
+/bin/
+/web/grantline.wasm
+/web/wasm_exec.js
+/.vercel/
+*.tfstate*
+state.json
+/integration/terraform/.terraform/
+/integration/terraform/test-events.jsonl

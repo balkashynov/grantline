@@ -1,0 +1,37 @@
+name: Validate
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  core:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: go test ./...
+      - run: mkdir -p bin && go build -o bin/grantline ./cmd/grantline
+      - run: ./scripts/build-web.sh
+      - run: node --check web/app.js && node --check web/worker.js && node scripts/test-wasm.cjs
+  provider-mock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.x'
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: '1.13.5'
+          terraform_wrapper: false
+      - run: mkdir -p bin && go build -o bin/grantline ./cmd/grantline
+      - run: terraform -chdir=integration/terraform init -input=false
+      - run: terraform -chdir=integration/terraform test -json -verbose > integration/terraform/test-events.jsonl
+      - run: python3 scripts/check-integration.py

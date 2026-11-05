@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "scope": "provided-snapshot",
+  "before": {
+    "label": "Legacy deployment key",
+    "orgId": "111111111111111111111111",
+    "grants": [
+      {
+        "scope": "org:111111111111111111111111",
+        "role": "ORG_MEMBER"
+      },
+      {
+        "scope": "project:222222222222222222222222",
+        "role": "GROUP_READ_ONLY"
+      },
+      {
+        "scope": "project:222222222222222222222222",
+        "role": "GROUP_DATA_ACCESS_READ_ONLY"
+      }
+    ],
+    "accessList": [
+      "2001:db8::/126"
+    ],
+    "requireIpList": true
+  },
+  "after": {
+    "label": "Replacement service account",
+    "orgId": "111111111111111111111111",
+    "grants": [
+      {
+        "scope": "org:111111111111111111111111",
+        "role": "ORG_MEMBER"
+      },
+      {
+        "scope": "project:222222222222222222222222",
+        "role": "GROUP_READ_ONLY"
+      },
+      {
+        "scope": "project:222222222222222222222222",
+        "role": "GROUP_DATA_ACCESS_READ_ONLY"
+      }
+    ],
+    "accessList": [
+      "2001:db8::/127",
+      "2001:db8::2/128"
+    ],
+    "requireIpList": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "status": "differences_found",
+  "inputSha256": "72e855c9974144c75b4c7e3f2d02a26825bbd387e8c46f2efbda929bbd48882d",
+  "scope": "terraform-managed",
+  "before": "mongodbatlas_api_key.legacy",
+  "after": "mongodbatlas_service_account.replacement",
+  "removedGrants": [
+    {
+      "scope": "project:222222222222222222222222",
+      "role": "GROUP_DATA_ACCESS_READ_ONLY"
+    }
+  ],
+  "addedGrants": [],
+  "network": {
+    "removed": [
+      {
+        "cidr": "192.0.2.128/25",
+        "witness": "192.0.2.128",
+        "addresses": "128",
+        "family": "IPv4"
+      }
+    ],
+    "added": [],
+    "before": [
+      {
+        "cidr": "192.0.2.0/24",
+        "witness": "192.0.2.0",
+        "addresses": "256",
+        "family": "IPv4"
+      }
+    ],
+    "after": [
+      {
+        "cidr": "192.0.2.0/25",
+        "witness": "192.0.2.0",
+        "addresses": "128",
+        "family": "IPv4"
+      }
+    ]
+  },
+  "issues": [],
+  "limits": [
+    "Compares exact scoped role assignments, not effective permissions or role inheritance.",
+    "Only the provided configuration is compared; unmanaged Atlas resources and drift are not discovered.",
+    "Does not validate secrets, token issuance, API operation support, or application behavior. Equality is not permission to retire a key.",
+    "IPv6 is supported by the set engine; acceptance of an address by Atlas is not tested."
+  ],
+  "nextSteps": [
+    "Review every removed and added role assignment and address range.",
+    "Confirm organization IP policy and reconcile resources outside this snapshot.",
+    "Test replacement authentication and representative API operations from real application egress addresses.",
+    "Follow MongoDB's overlap migration procedure; retire the old key only after application verification."
+  ]
+}

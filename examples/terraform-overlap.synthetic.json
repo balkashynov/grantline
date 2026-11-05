@@ -1,0 +1,108 @@
+{
+  "format_version": "1.0",
+  "terraform_version": "1.13.5",
+  "values": {
+    "root_module": {
+      "resources": [
+        {
+          "address": "mongodbatlas_api_key.legacy",
+          "mode": "managed",
+          "type": "mongodbatlas_api_key",
+          "name": "legacy",
+          "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+          "schema_version": 0,
+          "values": {
+            "org_id": "111111111111111111111111",
+            "api_key_id": "333333333333333333333333",
+            "role_names": [
+              "ORG_MEMBER"
+            ],
+            "private_key": "SYNTHETIC_SECRET_MUST_NEVER_APPEAR_IN_OUTPUT"
+          }
+        },
+        {
+          "address": "mongodbatlas_service_account.replacement",
+          "mode": "managed",
+          "type": "mongodbatlas_service_account",
+          "name": "replacement",
+          "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+          "schema_version": 0,
+          "values": {
+            "org_id": "111111111111111111111111",
+            "client_id": "mdb_sa_id_444444444444444444444444",
+            "roles": [
+              "ORG_MEMBER"
+            ],
+            "client_secret": "SYNTHETIC_SECRET_MUST_NEVER_APPEAR_IN_OUTPUT"
+          }
+        }
+      ],
+      "child_modules": [
+        {
+          "address": "module.access",
+          "resources": [
+            {
+              "address": "module.access.mongodbatlas_api_key_project_assignment.legacy",
+              "mode": "managed",
+              "type": "mongodbatlas_api_key_project_assignment",
+              "name": "legacy",
+              "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+              "schema_version": 0,
+              "values": {
+                "project_id": "222222222222222222222222",
+                "api_key_id": "333333333333333333333333",
+                "roles": [
+                  "GROUP_READ_ONLY",
+                  "GROUP_DATA_ACCESS_READ_ONLY"
+                ]
+              }
+            },
+            {
+              "address": "module.access.mongodbatlas_service_account_project_assignment.replacement",
+              "mode": "managed",
+              "type": "mongodbatlas_service_account_project_assignment",
+              "name": "replacement",
+              "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+              "schema_version": 0,
+              "values": {
+                "project_id": "222222222222222222222222",
+                "client_id": "mdb_sa_id_444444444444444444444444",
+                "roles": [
+                  "GROUP_READ_ONLY"
+                ]
+              }
+            },
+            {
+              "address": "module.access.mongodbatlas_access_list_api_key.legacy",
+              "mode": "managed",
+              "type": "mongodbatlas_access_list_api_key",
+              "name": "legacy",
+              "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+              "schema_version": 0,
+              "values": {
+                "org_id": "111111111111111111111111",
+                "api_key_id": "333333333333333333333333",
+                "cidr_block": "192.0.2.0/24",
+                "ip_address": null
+              }
+            },
+            {
+              "address": "module.access.mongodbatlas_service_account_access_list_entry.replacement",
+              "mode": "managed",
+              "type": "mongodbatlas_service_account_access_list_entry",
+              "name": "replacement",
+              "provider_name": "registry.terraform.io/mongodb/mongodbatlas",
+              "schema_version": 0,
+              "values": {
+                "org_id": "111111111111111111111111",
+                "client_id": "mdb_sa_id_444444444444444444444444",
+                "cidr_block": "192.0.2.0/25",
+                "ip_address": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
